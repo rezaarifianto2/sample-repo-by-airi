@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "skills": {
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1770985464470
+    },
+    "cloudflare-toolkit": {
+      "version": "1.5.0",
+      "installedAt": 1771400345216
+    }
+  }
+}
