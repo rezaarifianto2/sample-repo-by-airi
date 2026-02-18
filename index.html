@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Puding Lezat</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #fce0e6, #fff0f5);
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 span {
+            color: #ff9800;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .puding-image {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .feature-item {
+            flex-basis: 30%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #fff3e0;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+        .feature-item:hover {
+            transform: translateY(-5px);
+        }
+        .feature-item h3 {
+            color: #f57c00;
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #e91e63;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.4);
+        }
+        .cta-button:hover {
+            background-color: #c2185b;
+            transform: translateY(-3px);
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            .feature-item {
+                flex-basis: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Selamat Datang di Dunia <span>Puding</span> Lezat!</h1>
+            <p>Temukan kelembutan dan kenikmatan dalam setiap gigitan.</p>
+        </header>
+
+        <section class="hero">
+            <img src="https://images.unsplash.com/photo-1596541178491-a583f7a1f5a5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Puding Cantik" class="puding-image">
+            <p>Puding kami dibuat dengan bahan-bahan pilihan dan penuh cinta, menjamin rasa yang tak terlupakan di setiap momen spesialmu.</p>
+            <a href="#" class="cta-button">Pesan Pudingmu Sekarang!</a>
+        </section>
+
+        <section class="features">
+            <div class="feature-item">
+                <h3>Varian Rasa Kekinian</h3>
+                <p>Dari cokelat klasik hingga matcha modern, kami punya semuanya!</p>
+            </div>
+            <div class="feature-item">
+                <h3>Tekstur Lembut Sempurna</h3>
+                <p>Meleleh di mulut, meninggalkan sensasi manis yang pas.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Cocok untuk Semua Acara</h3>
+                <p>Ulang tahun, kumpul keluarga, atau sekadar camilan sore!</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Puding Lezat. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+</body>
+</html>
